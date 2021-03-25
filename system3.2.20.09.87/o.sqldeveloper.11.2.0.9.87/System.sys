@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<system nselem="system" class="oracle.ide.model.IdeSystem" xmlns="http://xmlns.oracle.com/jdeveloper/110000/system">
+   <listOfChildren class="oracle.ide.model.DataList">
+      <Item class="oracle.ide.model.Workspaces">
+         <activeProjectMap class="java.util.HashMap">
+            <Item>
+               <Key class="java.net.URL" protocol="sqldev.temp" path="/Bases de données.jws"/>
+               <Value class="java.net.URL" protocol="sqldev.temp" path="/IdeConnections%23SGBD_project.jpr"/>
+            </Item>
+         </activeProjectMap>
+         <activeWorkspaceURL protocol="sqldev.temp" path="/Bases de données.jws"/>
+         <listOfChildren class="oracle.ide.model.DataList">
+            <Item class="oracle.ide.model.Reference">
+               <URL protocol="sqldev.temp" path="/Bases de données.jws"/>
+               <nodeClass>oracle.ide.model.Workspace</nodeClass>
+            </Item>
+         </listOfChildren>
+         <workDirectory path="../../mywork/"/>
+      </Item>
+      <Item class="oracle.ide.model.Connections"/>
+   </listOfChildren>
+   <preferences>
+      <preferencesMap class="java.util.HashMap">
+         <Item>
+            <Key>DefaultProject</Key>
+            <Value class="java.net.URL" path="DefaultWorkspace/Project1.jpr"/>
+         </Item>
+         <Item>
+            <Key>DefaultWorkspace</Key>
+            <Value class="java.net.URL" path="DefaultWorkspace/DefaultWorkspace.jws"/>
+         </Item>
+      </preferencesMap>
+   </preferences>
+</system>

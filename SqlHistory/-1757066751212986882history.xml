@@ -1,0 +1,12 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[Create sequence Seq_joker
+start with 10;]]></sql>
+		<connection><![CDATA[td1sgbd]]></connection>
+		<timestamp><![CDATA[26/10/20 18:38]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.066]]></execTime>
+	</historyItem>
+</history>

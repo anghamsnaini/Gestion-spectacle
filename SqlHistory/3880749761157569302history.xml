@@ -1,0 +1,16 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[INSERT INTO SPECTACLE (IDSPEC, TITRE, DATES, H_DEBUT, DUREES, NBRSPECTATEUR, IDLIEU) VALUES (SEQ.nextval,'El Jaida',to_date('2021-07-15','YYYY-MM-DD'),10,2,300,12);
+INSERT INTO SPECTACLE (IDSPEC, TITRE, DATES, H_DEBUT, DUREES, NBRSPECTATEUR, IDLIEU) VALUES (SEQ.nextval,'Belly Dance with Rochdi',to_date('2021-12-30','YYYY-MM-DD'),20,3,60,1);
+INSERT INTO SPECTACLE (IDSPEC, TITRE, DATES, H_DEBUT, DUREES, NBRSPECTATEUR, IDLIEU) VALUES (SEQ.nextval,'A peine j''ouvre les yeux',to_date('2021-12-28','YYYY-MM-DD'),19,2.5,400,11);
+INSERT INTO SPECTACLE (IDSPEC, TITRE, DATES, H_DEBUT, DUREES, NBRSPECTATEUR, IDLIEU) VALUES (SEQ.nextval,'Papa Hedi',to_date('2021-12-16','YYYY-MM-DD'),18,3,200,13);
+INSERT INTO SPECTACLE (IDSPEC, TITRE, DATES, H_DEBUT, DUREES, NBRSPECTATEUR, IDLIEU) VALUES (SEQ.nextval,'Break Dance Show',to_date('2021-12-26','YYYY-MM-DD'),15,2,600,1);
+INSERT INTO SPECTACLE (IDSPEC, TITRE, DATES, H_DEBUT, DUREES, NBRSPECTATEUR, IDLIEU) VALUES (SEQ.nextval,'Tunisian Music Show',to_date('2021-03-12','YYYY-MM-DD'),20,3,1000,8);]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[21/01/21 10:30]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.078]]></execTime>
+	</historyItem>
+</history>

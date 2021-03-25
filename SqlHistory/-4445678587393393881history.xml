@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[INSERT INTO ARTISTE (IDART, NOMART, PRENOMART, SPECIALITE) VALUES (SEQ.nextval,'groupe','de break dance','danceur');]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[21/01/21 00:40]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.151]]></execTime>
+	</historyItem>
+</history>

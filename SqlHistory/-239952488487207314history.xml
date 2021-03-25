@@ -1,0 +1,14 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[INSERT INTO MembreF
+(nomem,prenom,statut,daten,cin,ecole,handicap,remarque,nofam) VALUES
+(Seq_joker.NEXTVAL, 'Rabia', 'mere','23/04/1972',76543219,0,0, 'sans
+emploi', 1);]]></sql>
+		<connection><![CDATA[TPsgbd1]]></connection>
+		<timestamp><![CDATA[02/11/20 13:59]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.11]]></execTime>
+	</historyItem>
+</history>

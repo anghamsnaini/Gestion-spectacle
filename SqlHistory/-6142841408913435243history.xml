@@ -1,0 +1,29 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[create or replace procedure rechercheLieuville (ville in varchar)
+is
+v Lieu%rowtype;
+begin
+declare
+cursor curv is select * from Lieu where ADRESSE=ville;
+begin
+open curv;
+loop
+fetch curv into v;
+exit when curv%notfound;
+dbms_output.put_line('Les lieux qui se situent dans la ville :'||ville||'sont:'||v.nomLieu||' ');
+end loop;
+if (curv %rowcount=0) then
+dbms_output.put_line('il n existe pas de lieux dans cette ville');
+end if;
+close curv;
+end;
+end rechercheLieuville;]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[21/01/21 14:13]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.047]]></execTime>
+	</historyItem>
+</history>

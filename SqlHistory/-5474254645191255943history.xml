@@ -1,0 +1,46 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[CREATE OR REPLACE PROCEDURE ajout_rub (
+    ids   spectacle.idspec%TYPE,
+    idart   artiste.idart%TYPE,
+    hd_reb   rubrique.h_debutr%TYPE,
+    Duree   rubrique.dureerub%TYPE,
+    typer   rubrique.type%TYPE
+) IS    
+datespectacle spectacle.dates%TYPE;
+BEGIN
+        SELECT                 -- DÉTERMINER LA DATE DU SPECTACLE
+            dates
+        INTO datespectacle
+        FROM
+            spectacle
+        WHERE
+            idspec = ids;
+ IF artiste_dispo(idart, datespectacle, hd_reb, Duree,typer ) 
+THEN             -- L'ARTISTE DISPONIBLE DE HDR JUSQU'A HDR+DUR
+              
+           IF rub_valid(ids, hd_reb, Duree) 
+               THEN           -- LA PERIODE DEMANDÉ POUR LA RUBRIQUE EST DISPONIBLE  
+                            INSERT INTO rubrique VALUES (
+                                      RUBRIQUE_sq.NEXTVAL,
+                                     ids,
+                                     idart,
+                                     hd_reb,
+                                     Duree,
+                                      typer );
+                ELSE
+                    raise_application_error(-20038, 'Horaire invalide!');
+                END IF;
+
+            ELSE
+                raise_application_error(-20039, 'verifier la disponibilité ou le type de l''artiste!');
+            END IF;
+END ajout_rub;]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[20/01/21 13:53]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[1.137]]></execTime>
+	</historyItem>
+</history>

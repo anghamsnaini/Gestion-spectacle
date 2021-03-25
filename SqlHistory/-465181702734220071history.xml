@@ -1,0 +1,22 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[CREATE TABLE MembreF (nomem NUMERIC(7) NOT NULL CONSTRAINT
+memb_nomem_pk PRIMARY KEY,
+prenom VARCHAR(25)NOT NULL,
+daten DATE NOT NULL,
+cin NUMERIC(8) UNIQUE,
+sexe varchar(1) NOT NULL CHECK (sexe IN ('F','M')),
+ecole varchar(3) NOT NULL CHECK (ecole IN ('Oui','Non')),
+handicap varchar(3) NOT NULL CHECK (handicap IN ('Oui','Non')),
+remarque VARCHAR(60),
+nofam NUMERIC(7),
+CONSTRAINT membre_nofam_fk FOREIGN KEY (nofam) REFERENCES
+Famille(nofam));]]></sql>
+		<connection><![CDATA[TPsgbd1]]></connection>
+		<timestamp><![CDATA[16/10/20 11:14]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.017]]></execTime>
+	</historyItem>
+</history>

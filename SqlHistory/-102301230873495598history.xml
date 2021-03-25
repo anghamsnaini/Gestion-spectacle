@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[alter table Personne add constraint ps foreign key(id_serv) references Service(id_serv);]]></sql>
+		<connection><![CDATA[td1sgbd]]></connection>
+		<timestamp><![CDATA[26/10/20 17:50]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.131]]></execTime>
+	</historyItem>
+</history>

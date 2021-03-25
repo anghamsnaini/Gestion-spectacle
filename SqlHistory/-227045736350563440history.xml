@@ -1,0 +1,13 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[ALTER TABLE BILLET 
+      ADD CONSTRAINT CHK_CATEGORIE 
+      CHECK(categorie in('gold','silver','normale'));]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[20/01/21 18:39]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.512]]></execTime>
+	</historyItem>
+</history>

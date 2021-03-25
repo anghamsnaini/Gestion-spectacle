@@ -1,0 +1,24 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[CREATE OR REPLACE PROCEDURE modif_titre(id spectacle.IDSPEC%TYPE,titre1 spectacle.TITRE%TYPE)
+IS
+t boolean;
+BEGIN 
+ t := idspec_exist(id) ;
+ if t then 
+     update spectacle 
+     set titre=titre1
+     where idspec = id; 
+else
+    RAISE_APPLICATION_ERROR(-20115,'ce IDSPEC est INEXSISTANT!');
+END IF;
+commit;          
+END modif_titre;]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[20/01/21 10:30]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.107]]></execTime>
+	</historyItem>
+</history>

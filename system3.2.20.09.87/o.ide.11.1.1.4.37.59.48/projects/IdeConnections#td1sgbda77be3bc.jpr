@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<jpr:project xmlns:jpr="http://xmlns.oracle.com/ide/project">
+   <hash n="oracle.jdeveloper.runner.RunConfigurations">
+      <value n="activeName" v="Par défaut"/>
+   </hash>
+</jpr:project>

@@ -1,0 +1,90 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[create or replace FUNCTION artiste_dispo (
+    id_art   artiste.idart%TYPE,
+    d        spectacle.dates%TYPE,
+    hd       rubrique.h_debutr%TYPE,
+    duree    rubrique.dureerub%TYPE,
+    typer        rubrique.type%TYPE
+) RETURN BOOLEAN IS
+    hf     rubrique.h_debutr%TYPE := hd + duree; --heure fin  de la rubrique a ajouter 
+    vida   rubrique.idart%TYPE;  
+    vs     artiste.specialite%TYPE;
+    copie_typer artiste.specialite%TYPE;
+    CURSOR cur_rubart IS
+    SELECT
+            r.idart         
+        FROM
+            rubrique    r,
+            spectacle   s
+        WHERE
+            r.idspec = s.idspec
+            AND s.dates = d    -- la date donnée pour l'artiste donné
+            AND idart = id_art
+            AND ( hd BETWEEN  h_debutr AND   h_debutr + dureerub  AND  hd NOT IN (h_debutr+dureerub) 
+            OR            
+              hf BETWEEN  h_debutr AND   h_debutr + dureerub  AND  hf NOT IN (h_debutr )       
+              OR 
+           ( hd<h_debutr AND hf> h_debutr + dureerub )
+    );
+BEGIN
+        SELECT
+            DISTINCT(a.specialite )    -- determiner la specialite de l'artiste
+        INTO vs
+        FROM
+            artiste a ,rubrique r
+        WHERE
+            a.idArt=r.idArt
+            AND
+            a.idart = id_art;
+copie_typer:=typer ;
+
+IF typer='comédie' THEN 
+ copie_typer:= 'humoriste' ;
+END IF ;
+
+IF typer='theatre' THEN 
+ copie_typer:= 'acteur' ;
+END IF ;
+IF typer='dance' THEN 
+ copie_typer:= 'danseur ' ;
+END IF ;
+IF typer='imitation' THEN 
+ copie_typer:= 'imitateur' ;
+END IF ;
+IF typer='magie' THEN 
+ copie_typer:= 'magicien' ;
+END IF ;
+IF typer='musique' THEN 
+ copie_typer:= 'musicien' ;
+END IF ;
+IF typer='chant' THEN 
+ copie_typer:= 'chanteur' ;
+END IF ;
+IF vs = copie_typer THEN   
+            OPEN cur_rubart;
+
+            FETCH cur_rubart INTO
+                vida;                
+            IF cur_rubart%notfound THEN   
+               dbms_output.put_line('artiste disponible');
+
+                RETURN true;
+            ELSE
+                dbms_output.put_line('artiste non disponible');
+
+                RETURN false;
+            END IF;
+    ELSE
+        dbms_output.put_line('Probleme de specialitée ou id inex!!');
+        RETURN false;
+    END IF;
+END artiste_dispo;]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[20/01/21 12:18]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.139]]></execTime>
+	</historyItem>
+</history>

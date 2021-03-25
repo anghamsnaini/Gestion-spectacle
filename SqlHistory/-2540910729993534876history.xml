@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[grant references (noact) on action to invit1;]]></sql>
+		<connection><![CDATA[TPsgbd1]]></connection>
+		<timestamp><![CDATA[01/11/20 23:15]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.109]]></execTime>
+	</historyItem>
+</history>

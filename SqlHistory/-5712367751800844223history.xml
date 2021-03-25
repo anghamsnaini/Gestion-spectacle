@@ -1,0 +1,14 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[DECLARE 
+BEGIN
+rechercheLieuville('centre ville - Tunis');
+END;]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[21/01/21 14:19]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.02]]></execTime>
+	</historyItem>
+</history>

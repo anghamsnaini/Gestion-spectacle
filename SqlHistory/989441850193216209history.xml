@@ -1,0 +1,26 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[INSERT INTO LIEU VALUES(1, 'CABARET RESTAURANT SHEHERAZADE','Médina Mediterranea - Yasmine-Hammamet - Tunisie',100);
+INSERT INTO LIEU VALUES(2, 'THÉÂTRE EL HAMRA','28,rue El Jazira - Tunis - Tunisie',550);
+INSERT INTO LIEU VALUES(3, 'Théâtre Municipal de Tunis','Avenue Bourguiba - Tunis - Tunisie',1099);
+INSERT INTO LIEU VALUES(4, 'CINÉMA TUNISIA ODYSSÉE','Medina Mediterranea - Yasmine-Hammamet - Tunisie',435);
+INSERT INTO LIEU VALUES(5, 'L''ÉTOILE DU NORD','41, avenue Farhat-Hached - Tunis - Tunisie',1067);
+INSERT INTO LIEU VALUES(6, 'Pathé Tunis City','Cebalet ben ammar, route de bizerte km 17 Ariana, Tunis 2032, Tunisie',425);
+INSERT INTO LIEU VALUES(7, 'CENTRE DOUAR EL HASFI','Route du Zoo-Paradis - 2200 - Tozeur - Tunisie',648);
+INSERT INTO LIEU VALUES(8, 'EL MAWEL','5, rue Amine-Abbassi - Tunis - Tunisie',354);
+INSERT INTO LIEU VALUES(9, 'EL TEATRO','Avenue Ouled Haffouz - Tunis - Tunisie',1619);
+INSERT INTO LIEU VALUES(10, 'ZINEBLEDI','route de tunis km12 - 4000 - Sousse - Tunisie',1772);
+INSERT INTO LIEU VALUES(11, 'Le Colisée','Avenue Habib Bourguiba, Tunis, Tunisie',1490);
+INSERT INTO LIEU VALUES(12,	'Cine Jamil','Rue du docteur Mohamed Ben Salah, Ariana, Tunisie',897);
+INSERT INTO LIEU VALUES(13,	'L’agora','Rue 1 La marsa',603);
+INSERT INTO LIEU VALUES(14,	'Alhambra “zéphyr”','Centre Commercial Zéphyr La Marsa',958);
+INSERT INTO LIEU VALUES(15,	'CinéMadart','Rue Hbib Bourguiba - Monoprix Dermech, Tunisie',866);
+INSERT INTO LIEU VALUES(16,	'theatre opera','CITE DE LA CULTURE A TUNIS',1800);]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[21/01/21 00:01]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.565]]></execTime>
+	</historyItem>
+</history>

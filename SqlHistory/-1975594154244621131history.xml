@@ -1,0 +1,14 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[CREATE TABLE TypeAct (notyp NUMERIC(7) NOT NULL CONSTRAINT
+typ_notyp_pk PRIMARY KEY,
+lib VARCHAR(25)NOT NULL,
+descrit VARCHAR(100)) ;]]></sql>
+		<connection><![CDATA[TPsgbd1]]></connection>
+		<timestamp><![CDATA[16/10/20 11:15]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.13]]></execTime>
+	</historyItem>
+</history>

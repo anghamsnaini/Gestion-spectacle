@@ -1,0 +1,45 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[create or replace PROCEDURE supp_lieu(
+    IDP LIEU.IDLIEU%TYPE)
+IS
+  i number:=0;
+  lieu1 LIEU%rowtype;
+BEGIN
+declare 
+  cursor c1 is select * from lieu where IDLIEU=IDP  ;
+  cursor c2 is select * from lieu where IDLIEU=IDP and IDLIEU  IN
+      (SELECT IDLIEU FROM spectacle) ;  
+begin
+  open c1 ;
+  fetch c1 into lieu1 ;
+  if (c1%rowcount = 0) then 
+    DBMS_OUTPUT.PUT_LINE('id introuvable');
+  ELSE
+   for l in c2 loop
+   i:=i+1;
+   end loop ;
+   
+    if (i=0)  then 
+      DELETE FROM lieu WHERE IDLIEU=IDP ;
+      commit;
+      DBMS_OUTPUT.PUT_LINE('suppression effectuer avec succeé');
+    
+    ELSE
+     insert into SUPP_LOGIQUE_LIEU VALUES (IDP,i) ;
+     commit ;
+      DBMS_OUTPUT.PUT_LINE('suppression logique avec succée');
+    END IF ;
+    
+  END IF;
+  close c1 ;
+end ;
+END supp_lieu;]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[21/01/21 13:52]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.101]]></execTime>
+	</historyItem>
+</history>

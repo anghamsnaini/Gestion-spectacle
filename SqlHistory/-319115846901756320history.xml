@@ -1,0 +1,19 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[CREATE TABLE Adherent (noadh NUMERIC(7) NOT NULL CONSTRAINT
+adh_noad_pk PRIMARY KEY,
+nomadh VARCHAR(25)NOT NULL,
+prenomadh VARCHAR(25)NOT NULL,
+tel NUMERIC(8),
+statut VARCHAR(25)NOT NULL CHECK (statut IN ('Président','SGeneral',
+'Porte parole','Actif', 'Passif')),
+adremail VARCHAR(25),
+cin NUMERIC(8) UNIQUE) ;]]></sql>
+		<connection><![CDATA[TPsgbd1]]></connection>
+		<timestamp><![CDATA[16/10/20 11:10]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.029]]></execTime>
+	</historyItem>
+</history>

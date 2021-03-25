@@ -1,0 +1,5 @@
+CREATE TABLE Immeuble (idimm NUMERIC(7) NOT NULL CONSTRAINT imm_id_pk PRIMARY KEY,
+adresse VARCHAR(25)NOT NULL, 
+codep NUMERIC(6)NOT NULL, 
+nbrEtages NUMERIC(3),
+dateConstr DATE NOT NULL);

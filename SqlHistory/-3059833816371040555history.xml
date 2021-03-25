@@ -1,0 +1,40 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[CREATE OR REPLACE TRIGGER TRIGGER_AFTER_MODIF_HDEBUT_S 
+AFTER UPDATE OF h_debut ON SPECTACLE 
+FOR EACH ROW
+DECLARE 
+
+   difference  spectacle.DUREES%TYPE;
+   idrubrique rubrique.IDRUB%TYPE;
+   nb_rubriques int ;
+   heure_d spectacle.DUREES%TYPE;
+   CURSOR cur  IS 
+        SELECT IDRUB,H_DEBUTR  
+        
+        FROM rubrique
+        WHERE idspec = :NEW.idspec;
+
+BEGIN  
+	difference := :NEW.H_DEBUT - :OLD.H_DEBUT;
+
+   dbms_output.put_line(difference);
+    OPEN cur; 
+       LOOP
+           FETCH cur INTO idrubrique,heure_d;
+           EXIT	WHEN	NOT	cur%FOUND;		
+              dbms_output.put_line(idrubrique);
+            
+        
+        
+           update rubrique set H_DEBUTR = H_DEBUTR + difference  where idspec=:NEW.idspec and IDRUB = idrubrique;
+        END	LOOP;
+END;]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[20/01/21 10:49]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.057]]></execTime>
+	</historyItem>
+</history>

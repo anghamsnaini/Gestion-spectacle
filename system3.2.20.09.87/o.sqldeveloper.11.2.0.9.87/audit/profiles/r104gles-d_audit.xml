@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_261" class="java.beans.XMLDecoder">
+ <string>Audit Profile 11.1.1-1</string>
+ <string>Règles d&apos;audit</string>
+ <string>audit-rules</string>
+ <object class="java.util.HashMap">
+  <void method="put">
+   <string>names.unconventional-variable-name</string>
+   <object class="java.util.ArrayList"/>
+  </void>
+  <void method="put">
+   <string>java-errors.secondary-type</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object class="oracle.jdeveloper.audit.analyzer.Rule" id="Method0" method="getMethod">
+       <string>setEnabled</string>
+       <array class="java.lang.Class" length="1">
+        <void index="0">
+         <class>boolean</class>
+        </void>
+       </array>
+      </object>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>declarations.unconventional-class-modifier-order</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>api.string-constructor</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>javadoc.missing-comment</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object class="oracle.jdeveloper.audit.analyzer.Rule" id="Method1" method="getMethod">
+       <string>setStyle</string>
+       <array class="java.lang.Class" length="1">
+        <void index="0">
+         <class>oracle.jdeveloper.audit.analyzer.StyleCategory</class>
+        </void>
+       </array>
+      </object>
+      <object class="oracle.jdeveloper.audit.service.TypeSafeEnumerationFactory" id="StyleCategory0" method="value">
+       <class>oracle.jdeveloper.audit.analyzer.StyleCategory</class>
+       <string>warning</string>
+      </object>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>names.unconventional-constant-name</string>
+   <object class="java.util.ArrayList"/>
+  </void>
+  <void method="put">
+   <string>names.unconventional-class-name</string>
+   <object class="java.util.ArrayList"/>
+  </void>
+  <void method="put">
+   <string>assists.for-assist</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>unused.unused-method</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>javadoc.tag-is-missing</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object class="oracle.jdeveloper.audit.analyzer.Rule" id="Method2" method="getMethod">
+       <string>setSeverity</string>
+       <array class="java.lang.Class" length="1">
+        <void index="0">
+         <class>oracle.jdeveloper.audit.analyzer.Severity</class>
+        </void>
+       </array>
+      </object>
+      <object class="oracle.jdeveloper.audit.service.TypeSafeEnumerationFactory" method="value">
+       <class>oracle.jdeveloper.audit.analyzer.Severity</class>
+       <string>advisory</string>
+      </object>
+     </object>
+    </void>
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method1"/>
+      <object class="oracle.jdeveloper.audit.service.TypeSafeEnumerationFactory" method="value">
+       <class>oracle.jdeveloper.audit.analyzer.StyleCategory</class>
+       <string>advisory</string>
+      </object>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.interface-duplicated</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.name-not-found</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.type-not-found</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>names.unconventional-field-name</string>
+   <object class="java.util.ArrayList"/>
+  </void>
+  <void method="put">
+   <string>java-errors.unnecessary-cast</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>api.null-map-return</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.semantic-warning</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.syntax-error</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.public-type-name-conflict</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>javadoc.tag-is-duplicate</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.constructor-not-found</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>javadoc.tag-misspelled</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>unused.unused-import</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.exceptions-unhandled</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.semantic-error</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>javadoc.tags-incorrectly-sorted</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method2"/>
+      <object class="oracle.jdeveloper.audit.service.TypeSafeEnumerationFactory" id="Severity0" method="value">
+       <class>oracle.jdeveloper.audit.analyzer.Severity</class>
+       <string>warning</string>
+      </object>
+     </object>
+    </void>
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method1"/>
+      <object idref="StyleCategory0"/>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>junit.set-expected-exception</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.type-unassignable</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>unused.unused-class</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>extension.extension-class-assist</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.interface-conflicted</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>exceptions.insufficient-catch-block</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>assists.ctor-assist</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.semantic-advisory</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>api.boolean-constructor</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.catch-unreachable</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>unused.unused-field</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>declarations.unconventional-method-modifier-order</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>names.constructor-method-name</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>unused.unused-variable</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>javadoc.comment-period-missing</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>api.hashcode-without-equals</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.type-incompatible</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>unused.unused-constructor</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>api.null-collection-return</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.syntax-warning</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>junit.ignore-test</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>api.finalizer</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.constant-unassignable</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.syntax-advisory</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>declarations.unconventional-field-modifier-order</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>api.equals-without-hashcode</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>expressions.lowercase-long-literal</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method2"/>
+      <object idref="Severity0"/>
+     </object>
+    </void>
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method1"/>
+      <object idref="StyleCategory0"/>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>javadoc.tag-is-misplaced</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.methods-unimplemented</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.wildcard-invalid</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.method-not-found</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>api.classic-forname</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>junit.set-timeout</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>javadoc.comment-html-is-unterminated</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>names.unconventional-interface-name</string>
+   <object class="java.util.ArrayList"/>
+  </void>
+  <void method="put">
+   <string>names.unconventional-parameter-name</string>
+   <object class="java.util.ArrayList"/>
+  </void>
+  <void method="put">
+   <string>unused.unused-interface</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.invalid-modifier</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>unused.unused-parameter</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>api.null-array-return</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>names.unconventional-method-name</string>
+   <object class="java.util.ArrayList"/>
+  </void>
+ </object>
+</java>

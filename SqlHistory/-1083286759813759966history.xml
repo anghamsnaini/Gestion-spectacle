@@ -1,0 +1,13 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[Select num_fam, nom_fam, tel_fam, nbr_enf_scol 
+from VList_InfoFamille
+where nbr_enf_scol>=3;]]></sql>
+		<connection><![CDATA[TPsgbd1]]></connection>
+		<timestamp><![CDATA[02/11/20 19:08]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.001]]></execTime>
+	</historyItem>
+</history>

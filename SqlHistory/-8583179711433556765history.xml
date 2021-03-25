@@ -1,0 +1,15 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SET SERVEROUTPUT ON 
+DECLARE
+BEGIN
+    modfier_lieux(17,'','',450);   
+END;]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[21/01/21 13:11]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.007]]></execTime>
+	</historyItem>
+</history>

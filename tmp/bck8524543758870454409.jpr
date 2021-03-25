@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<jpr:project xmlns:jpr="http://xmlns.oracle.com/ide/project">
+   <list n="contentSets">
+      <string v="RaptorFiles"/>
+   </list>
+   <hash n="oracle.jdeveloper.runner.RunConfigurations">
+      <hash n="runConfigurationDefinitions">
+         <hash n="Par défaut">
+            <value n="compileBeforeRun" v="false"/>
+            <value n="connectionName" v="IdeConnections%23SGBD_project"/>
+            <value n="name" v="Par défaut"/>
+         </hash>
+         <hash n="Remote Debug">
+            <value n="connectionName" v="IdeConnections%23SGBD_project"/>
+            <value n="name" v="Remote Debug"/>
+            <hash n="oracle.jdevimpl.runner.debug.DebugConfiguration">
+               <value n="remoteProtocol" v="jpdaListen"/>
+            </hash>
+            <value n="remoteDebuggingProfiling" v="true"/>
+            <value n="remoteProtocol" v="jpdaListen"/>
+            <value n="RUN_PROPS" v="RUN_PROPS"/>
+            <value n="runActiveFile" v="false"/>
+         </hash>
+      </hash>
+      <list n="runConfigurationList">
+         <string v="Par défaut"/>
+         <string v="Remote Debug"/>
+      </list>
+   </hash>
+</jpr:project>

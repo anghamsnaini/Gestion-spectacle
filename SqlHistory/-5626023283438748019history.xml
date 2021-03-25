@@ -1,0 +1,15 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[CREATE TABLE Artiste
+	(idArt INTEGER PRIMARY KEY,
+	NomArt VARCHAR2 (30) NOT NULL,
+	PrenomArt VARCHAR2 (30) NOT NULL,
+        specialite VARCHAR2 (10) NOT NULL);]]></sql>
+		<connection><![CDATA[spectacle]]></connection>
+		<timestamp><![CDATA[18/01/21 11:06]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.129]]></execTime>
+	</historyItem>
+</history>

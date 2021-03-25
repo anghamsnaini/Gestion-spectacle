@@ -1,0 +1,32 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[create or replace PROCEDURE modfier_lieux(
+    nomLieu  LIEU.NOMLIEU%TYPE,
+    Adresse1  LIEU.ADRESSE%TYPE,
+    NewnomLieu  LIEU.NOMLIEU%TYPE,
+    newcapacite  LIEU.CAPACITE%TYPE
+    ) IS
+BEGIN
+if ((NewnomLieu='null') and (newcapacite>0)) then
+dbms_output.put_line('modofocation capcité');
+update Lieu set capacite = newcapacite where NOMLIEU=nomLieu AND Adresse=Adresse1 ;
+commit;
+elsif ((NewnomLieu!='null') and (newcapacite=0)) then 
+dbms_output.put_line('modofocation nom lieu');
+update Lieu set NOMLIEU=NewnomLieu where NOMLIEU=nomLieu AND Adresse=Adresse1 ;
+commit;
+elsif ((NewnomLieu!='null') and (newcapacite>0)) then 
+dbms_output.put_line('modofocation nom de lieu et capacité');
+update Lieu set NOMLIEU=NewnomLieu ,capacite=newcapacite where NOMLIEU=nomLieu AND Adresse=Adresse1 ;
+commit;
+else dbms_output.put_line('modifocation est impossible');  
+END IF ;
+END modfier_lieux ;]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[21/01/21 13:31]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.119]]></execTime>
+	</historyItem>
+</history>

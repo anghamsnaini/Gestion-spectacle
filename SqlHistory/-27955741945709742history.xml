@@ -1,0 +1,13 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[DELETE FROM Donation ;
+DELETE FROM Adherent ;
+DELETE FROM Action;]]></sql>
+		<connection><![CDATA[TPsgbd1]]></connection>
+		<timestamp><![CDATA[02/11/20 10:17]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.182]]></execTime>
+	</historyItem>
+</history>

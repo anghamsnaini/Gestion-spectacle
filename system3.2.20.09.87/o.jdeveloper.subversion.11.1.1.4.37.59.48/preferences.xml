@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<client-settings class="java.util.HashMap" xmlns="http://xmlns.oracle.com/jdeveloper/110000/client-preferences">
+   <Item>
+      <Key>oracle.jdeveloper.subversion.CLIENT_TECHNOLOGY</Key>
+      <Value class="oracle.jdeveloper.vcs.spi.VCSPropertyMap">
+         <map class="java.util.HashMap">
+            <Item>
+               <Key>clientType</Key>
+               <Value class="java.lang.Integer">2</Value>
+            </Item>
+         </map>
+      </Value>
+   </Item>
+   <Item>
+      <Key>oracle.jdeveloper.subversion.COMMENT_TEMPLATES</Key>
+      <Value class="oracle.jdeveloper.vcs.spi.VCSPropertyMap">
+         <map class="java.util.HashMap"/>
+      </Value>
+   </Item>
+   <Item>
+      <Key>oracle.jdeveloper.subversion.oracle.jdeveloper.vcs.data.COMMON_SETTINGS</Key>
+      <Value class="oracle.jdeveloper.vcs.spi.VCSPropertyMap">
+         <map class="java.util.HashMap">
+            <Item>
+               <Key>autoCheckoutComment</Key>
+               <Value>Extrait automatiquement par Oracle SQL Developer</Value>
+            </Item>
+            <Item>
+               <Key>autoCheckouts</Key>
+               <Value class="java.lang.Boolean">true</Value>
+            </Item>
+            <Item>
+               <Key>logMessagesToLogWindow</Key>
+               <Value class="java.lang.Boolean">true</Value>
+            </Item>
+            <Item>
+               <Key>property_operation_timeout</Key>
+               <Value class="java.lang.Integer">60</Value>
+            </Item>
+            <Item>
+               <Key>useLabelDecorations</Key>
+               <Value class="java.lang.Boolean">true</Value>
+            </Item>
+            <Item>
+               <Key>useOverlays</Key>
+               <Value class="java.lang.Boolean">true</Value>
+            </Item>
+         </map>
+      </Value>
+   </Item>
+   <Item>
+      <Key>oracle.jdeveloper.subversion.VTOOLS_SETTINGS</Key>
+      <Value class="oracle.jdeveloper.vcs.spi.VCSPropertyMap">
+         <map class="java.util.HashMap">
+            <Item>
+               <Key>incomingInterval</Key>
+               <Value class="java.lang.Integer">15</Value>
+            </Item>
+            <Item>
+               <Key>incomingIntervalUnit</Key>
+               <Value>MINUTES</Value>
+            </Item>
+            <Item>
+               <Key>outgoingCommitDialog</Key>
+               <Value class="java.lang.Integer">1</Value>
+            </Item>
+         </map>
+      </Value>
+   </Item>
+</client-settings>

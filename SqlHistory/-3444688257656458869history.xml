@@ -1,0 +1,12 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[update adherent SET nomadh='Bensaid' WHERE nomadh='Ben said';
+COMMIT;]]></sql>
+		<connection><![CDATA[TPsgbd1]]></connection>
+		<timestamp><![CDATA[02/11/20 14:00]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.033]]></execTime>
+	</historyItem>
+</history>

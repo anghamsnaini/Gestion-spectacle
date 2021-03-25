@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<client-settings class="java.util.HashMap" xmlns="http://xmlns.oracle.com/jdeveloper/110000/client-preferences">
+   <Item>
+      <Key>VersioningSettings</Key>
+      <Value class="oracle.jdeveloper.vcs.spi.VCSPropertyMap">
+         <map class="java.util.HashMap"/>
+      </Value>
+   </Item>
+</client-settings>

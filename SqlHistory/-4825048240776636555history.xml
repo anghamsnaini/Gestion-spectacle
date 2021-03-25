@@ -1,0 +1,13 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[Create view VInfoFamille(num_fam, nb_enf_scol, nb_enf_hand)
+AS Select nofam, SUM(ecole), SUM(handicap)
+From membref Group by nofam;]]></sql>
+		<connection><![CDATA[TPsgbd1]]></connection>
+		<timestamp><![CDATA[02/11/20 14:26]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.107]]></execTime>
+	</historyItem>
+</history>

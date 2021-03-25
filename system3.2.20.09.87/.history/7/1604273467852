@@ -1,0 +1,93 @@
+ALTER TABLE MembreF 
+ADD statut varchar(5);
+
+ALTER TABLE MembreF ADD (constraint statut_famille_ck check (statut in
+('fille','fils','mere','pere','autre')));
+
+SELECT CONSTRAINT_NAME, CONSTRAINT_TYPE, SEARCH_CONDITION, INDEX_NAME
+FROM DBA_CONSTRAINTS
+WHERE TABLE_NAME LIKE UPPER('MembreF');
+
+INSERT INTO MembreF (nomem,prenom,statut,daten,cin,sexe,ecole,handicap,remarque,nofam) 
+VALUES (2,'Rabia','tata','23/04/1972',76543219,'F','Non','Non','sans emploi',1);
+
+ALTER TABLE MembreF DISABLE constraint statut_famille_ck;
+
+INSERT INTO MembreF (nomem,prenom,statut,daten,cin,sexe,ecole,handicap,remarque,nofam) 
+VALUES (2,'Rabia','tata','23/04/1972',76543219,'F','Non','Non','sans emploi',1);
+
+ ALTER TABLE MembreF DROP Constraint statut_famille_ck;
+
+SELECT CONSTRAINT_NAME, CONSTRAINT_TYPE, SEARCH_CONDITION, INDEX_NAME
+FROM DBA_CONSTRAINTS
+WHERE TABLE_NAME LIKE UPPER('MembreF');
+
+ desc membref;
+ 
+ DELETE adherent where noadh=106;
+
+SELECT (noadh,nomadh,prenomadh,tel)
+FROM adherent;
+
+SELECT *
+FROM famille f, membref mf
+WHERE f.nofam=mf.nofam
+AND f.nofam LIKE 'Hmiden';
+ 
+SELECT COUNT(*) typeact FROM action
+GROUP BY typeact;
+
+SELECT sum(montant) from donation GROUP BY typedonat;
+
+ /*********TP2*********/
+grant dba to TPsgbd1;
+
+create user invit1 identified by 1234
+default tablespace users
+temporary tablespace temp;
+
+create user invit2 identified by 4321
+default tablespace users
+temporary tablespace temp;
+
+SELECT * FROM all_users WHERE username LIKE upper('%invit1%');
+SELECT * FROM all_users WHERE username LIKE upper('%invit2%');
+
+grant create session to invit1;
+
+SELECT PRIVILEGE FROM dba_sys_privs WHERE grantee=upper('%invit1%');
+SELECT PRIVILEGE FROM dba_sys_privs WHERE grantee=('%invit1%');
+
+Alter user invit1 Quota 5M on users;
+
+grant references (noact) on action to invit1;
+grant references (nofam) on famille to invit1;
+
+revoke create table from invit1;
+
+SELECT CONSTRAINT_NAME,SEARCH_CONDITION
+FROM DBA_CONSTRAINTS
+WHERE TABLE_NAME LIKE UPPER('Tab_Act_familles');
+
+Create role RL_tresorier not identified;
+Grant select,insert,update on donation to RL_tresorier;
+
+create role RL_membre not identified;
+Grant select on donation to RL_membre;
+Grant select, insert on action to RL_membre;
+
+Grant RL_tresorier to invit1;
+Grant RL_membre to invit2;
+SELECT role, Table_name,column_name, privilege, owner from role_tab_privs 
+WHERE role LIKE UPPER('rl_tresorier')
+OR role LIKE UPPER('rl_membre');
+
+grant create session to invit2;
+
+drop role RL_membre;
+
+SELECT role, Table_name,column_name, privilege from role_tab_privs 
+WHERE owner LIKE UPPER('invit1');
+
+
+ 

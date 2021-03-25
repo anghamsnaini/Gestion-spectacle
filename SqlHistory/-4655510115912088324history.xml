@@ -1,0 +1,14 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT *
+FROM famille f, membref mf
+WHERE f.nofam=mf.nofam
+AND f.nofam LIKE 'Hmiden';]]></sql>
+		<connection><![CDATA[TPsgbd1]]></connection>
+		<timestamp><![CDATA[01/11/20 18:48]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.0]]></execTime>
+	</historyItem>
+</history>

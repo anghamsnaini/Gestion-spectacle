@@ -1,0 +1,30 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[CREATE OR REPLACE TRIGGER TRIGGER_SOMME_DUREE_RUB 
+BEFORE INSERT ON RUBRIQUE 
+FOR EACH ROW 
+        
+        DECLARE
+        duree_spectacle spectacle.H_DEBUT%TYPE;
+        vduree rubrique.dureeRub%TYPE;
+        somme int;
+        BEGIN
+        SELECT dureeS INTO duree_spectacle  FROM spectacle WHERE IDSPEC = :NEW.IDSPEC;
+        
+        somme:= somme_duree_rubrique(:NEW.IDSPEC);
+ 
+
+        IF    duree_spectacle = somme  then 
+      
+            RAISE_APPLICATION_ERROR(-20000,'erreur !! les durees des rubriques depassent le spectacle , pas d ajout !!');
+        END IF;
+
+        END;]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[20/01/21 18:34]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.221]]></execTime>
+	</historyItem>
+</history>

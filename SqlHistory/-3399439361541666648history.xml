@@ -1,0 +1,23 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[Create or replace PROCEDURE modif_lieu(id in NUMBER,id_nvlieu spectacle.IDLIEU%TYPE )
+IS
+t boolean;
+BEGIN 
+    t := idspec_exist(id) ;
+    if t then 
+        update spectacle set IDLIEU=id_nvlieu where idspec=id;
+        DBMS_OUTPUT.PUT_LINE ('update avec success'); 
+    else
+        RAISE_APPLICATION_ERROR(-20117,'ce IDSPEC est INEXSISTANT!');
+    END IF; 
+commit;
+END modif_lieu;]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[20/01/21 11:50]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.123]]></execTime>
+	</historyItem>
+</history>

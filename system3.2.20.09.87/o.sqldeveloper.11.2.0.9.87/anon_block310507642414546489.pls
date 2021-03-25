@@ -1,0 +1,12 @@
+DECLARE
+  ID NUMBER;
+  DUREE1 NUMBER;
+BEGIN
+  ID := NULL;
+  DUREE1 := NULL;
+
+  MODIF_DUREE(
+    ID => ID,
+    DUREE1 => DUREE1
+  );
+END;

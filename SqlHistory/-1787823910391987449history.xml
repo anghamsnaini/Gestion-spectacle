@@ -1,0 +1,20 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[DECLARE
+    t BOOLEAN;
+BEGIN
+    t := idspec_exist(40);
+    IF t THEN
+        dbms_output.put_line('heeeeeeeeeeeeeey');
+    ELSE
+        dbms_output.put_line('no');
+    END IF;
+END;]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[26/01/21 23:07]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.008]]></execTime>
+	</historyItem>
+</history>

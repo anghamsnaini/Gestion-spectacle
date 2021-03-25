@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[INSERT INTO SPECTACLE (IDSPEC, TITRE, DATES, H_DEBUT, DUREES, NBRSPECTATEUR, IDLIEU) VALUES (SEQ.nextval,'A peine j''ouvre les yeux',to_date('2021-12-15','YYYY-MM-DD'),17,2.5,300,13);]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[21/01/21 10:30]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.14]]></execTime>
+	</historyItem>
+</history>

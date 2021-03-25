@@ -1,0 +1,16 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[INSERT INTO Action VALUES ('Act200','Lunette de vue',
+'23/01/2018', '20/02/2018', 
+'collecte pour couvrir les frais de lunettes de vue 60dt',
+102);
+INSERT INTO Action VALUES ('Act201','Lunette de vue', '02/02/2018', '28/02/2018', 
+'collecte pour couvrir les frais de lunettes de vue 250dt', 102);]]></sql>
+		<connection><![CDATA[TPsgbd1]]></connection>
+		<timestamp><![CDATA[02/11/20 19:52]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.007]]></execTime>
+	</historyItem>
+</history>

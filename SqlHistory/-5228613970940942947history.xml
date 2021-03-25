@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[GRANT DBA TO TPsgbd1;]]></sql>
+		<connection><![CDATA[system]]></connection>
+		<timestamp><![CDATA[16/10/20 11:05]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.0]]></execTime>
+	</historyItem>
+</history>

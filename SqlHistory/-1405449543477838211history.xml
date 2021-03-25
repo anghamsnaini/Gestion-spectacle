@@ -1,0 +1,14 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[INSERT INTO Famille VALUES (1, 'Dridi', 3, 'le père est décédé',
+93456787, '12 rue yyyyy', 'Ariana');
+INSERT INTO Famille (nofam, nomfam, nbrpers, tel, adr, ville) VALUES
+(4, 'Hmiden', 5, 58954321, '40 rue zzzzz', 'Tela');]]></sql>
+		<connection><![CDATA[TPsgbd1]]></connection>
+		<timestamp><![CDATA[16/10/20 11:19]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.077]]></execTime>
+	</historyItem>
+</history>

@@ -1,0 +1,13 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT role, Table_name,column_name, privilege, owner from role_tab_privs 
+WHERE role LIKE UPPER('rl_tresorier')
+OR role LIKE UPPER('rl_membre');]]></sql>
+		<connection><![CDATA[TPsgbd1]]></connection>
+		<timestamp><![CDATA[02/11/20 00:14]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.286]]></execTime>
+	</historyItem>
+</history>

@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<breakpoints class="java.util.ArrayList" xmlns="http://xmlns.oracle.com/jdeveloper/110000/breakpoints">
+   <Item class="oracle.jdevimpl.runner.debug.BreakpointSettings">
+      <URL/>
+      <access>false</access>
+      <actionBeep>false</actionBeep>
+      <actionDisableOther class="java.lang.String"/>
+      <actionEnableOther class="java.lang.String"/>
+      <actionHalt>true</actionHalt>
+      <actionLog>true</actionLog>
+      <actionLogExpr class="java.lang.String"/>
+      <actionLogStack>false</actionLogStack>
+      <actionLogTag class="java.lang.String"/>
+      <caught>false</caught>
+      <className class="java.lang.String"/>
+      <condition class="java.lang.String"/>
+      <customDescription/>
+      <customTypeString/>
+      <debuggerExtenderID/>
+      <enabled>true</enabled>
+      <exception>java.lang.Exception</exception>
+      <fieldName class="java.lang.String"/>
+      <file class="java.lang.String"/>
+      <groupName class="java.lang.String"/>
+      <hiddenCondition class="java.lang.String"/>
+      <line>0</line>
+      <method class="java.lang.String"/>
+      <modify>true</modify>
+      <offset>-1</offset>
+      <ownerURL/>
+      <passCount>0</passCount>
+      <persistent>true</persistent>
+      <pkg class="java.lang.String"/>
+      <propertyKeys/>
+      <propertyValues/>
+      <threadName class="java.lang.String"/>
+      <threadNameNot class="java.lang.String"/>
+      <type>2</type>
+      <uncaught>true</uncaught>
+   </Item>
+</breakpoints>

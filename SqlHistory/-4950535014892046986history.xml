@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT * FROM USER_INDEXES ;]]></sql>
+		<connection><![CDATA[TPsgbd1]]></connection>
+		<timestamp><![CDATA[24/12/20 12:13]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[5]]></executed>
+		<execTime><![CDATA[0.024]]></execTime>
+	</historyItem>
+</history>

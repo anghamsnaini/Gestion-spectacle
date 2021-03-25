@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<client-settings class="java.util.HashMap" xmlns="http://xmlns.oracle.com/jdeveloper/110000/client-preferences">
+   <Item>
+      <Key>editors-options</Key>
+      <Value class="oracle.ide.editor.EditorsOptions">
+         <editorsData/>
+         <lruFiles>
+            <Item class="oracle.ide.editor.RecentFile">
+               <editor>oracle.dbtools.worksheet.extension.WorksheetAddin</editor>
+               <explicit>false</explicit>
+               <nodeURL path="../../A.sql"/>
+               <projectURL/>
+               <workspaceURL protocol="sqldev.temp" path="/Bases de données.jws"/>
+            </Item>
+            <Item class="oracle.ide.editor.RecentFile">
+               <editor>oracle.dbtools.worksheet.extension.WorksheetAddin</editor>
+               <explicit>false</explicit>
+               <nodeURL path="../../tdsgbd.sql"/>
+               <projectURL/>
+               <workspaceURL protocol="sqldev.temp" path="/Bases de données.jws"/>
+            </Item>
+            <Item class="oracle.ide.editor.RecentFile">
+               <editor>oracle.dbtools.worksheet.extension.WorksheetAddin</editor>
+               <explicit>false</explicit>
+               <nodeURL path="../../tp1.sql"/>
+               <projectURL/>
+               <workspaceURL protocol="sqldev.temp" path="/Bases de données.jws"/>
+            </Item>
+            <Item class="oracle.ide.editor.RecentFile">
+               <editor>oracle.dbtools.worksheet.extension.WorksheetAddin</editor>
+               <explicit>false</explicit>
+               <nodeURL path="../../tp3.sql"/>
+               <projectURL/>
+               <workspaceURL protocol="sqldev.temp" path="/Bases de données.jws"/>
+            </Item>
+            <Item class="oracle.ide.editor.RecentFile">
+               <editor>oracle.dbtools.worksheet.extension.WorksheetAddin</editor>
+               <explicit>false</explicit>
+               <nodeURL path="../../tp5.sql"/>
+               <projectURL/>
+               <workspaceURL protocol="sqldev.temp" path="/Bases de données.jws"/>
+            </Item>
+            <Item class="oracle.ide.editor.RecentFile">
+               <editor>oracle.dbtools.worksheet.extension.WorksheetAddin</editor>
+               <explicit>false</explicit>
+               <nodeURL path="../../tp4.sql"/>
+               <projectURL/>
+               <workspaceURL protocol="sqldev.temp" path="/Bases de données.jws"/>
+            </Item>
+            <Item class="oracle.ide.editor.RecentFile">
+               <editor>oracle.dbtools.worksheet.extension.WorksheetAddin</editor>
+               <explicit>false</explicit>
+               <nodeURL path="../../spectacle.sql"/>
+               <projectURL protocol="sqldev.temp" path="/IdeConnections%23system.jpr"/>
+               <workspaceURL protocol="sqldev.temp" path="/Bases de données.jws"/>
+            </Item>
+            <Item class="oracle.ide.editor.RecentFile">
+               <editor>oracle.dbtools.worksheet.extension.WorksheetAddin</editor>
+               <explicit>false</explicit>
+               <nodeURL path="../../annex.sql"/>
+               <projectURL/>
+               <workspaceURL protocol="sqldev.temp" path="/Bases de données.jws"/>
+            </Item>
+            <Item class="oracle.ide.editor.RecentFile">
+               <editor>oracle.dbtools.worksheet.extension.WorksheetAddin</editor>
+               <explicit>true</explicit>
+               <nodeURL path="../../SGBD_project_1.sql"/>
+               <projectURL/>
+               <workspaceURL protocol="sqldev.temp" path="/Bases de données.jws"/>
+            </Item>
+            <Item class="oracle.ide.editor.RecentFile">
+               <editor>oracle.dbtools.worksheet.extension.WorksheetAddin</editor>
+               <explicit>true</explicit>
+               <nodeURL path="../../SGBD_project_2.sql"/>
+               <projectURL protocol="sqldev.temp" path="/IdeConnections%23SGBD_project.jpr"/>
+               <workspaceURL protocol="sqldev.temp" path="/Bases de données.jws"/>
+            </Item>
+            <Item class="oracle.ide.editor.RecentFile">
+               <editor>oracle.dbtools.worksheet.extension.WorksheetAddin</editor>
+               <explicit>true</explicit>
+               <nodeURL path="../../SGBD_project.sql"/>
+               <projectURL protocol="sqldev.temp" path="/IdeConnections%23system.jpr"/>
+               <workspaceURL protocol="sqldev.temp" path="/Bases de données.jws"/>
+            </Item>
+         </lruFiles>
+         <recentFilesShowAll>false</recentFilesShowAll>
+      </Value>
+   </Item>
+</client-settings>

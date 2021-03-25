@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[Alter table Tab_Act_familles add constraint act_ref foreign key (noact) references tpsgbd1.action(noact);]]></sql>
+		<connection><![CDATA[invit1]]></connection>
+		<timestamp><![CDATA[01/11/20 23:28]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.136]]></execTime>
+	</historyItem>
+</history>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<client-settings class="java.util.HashMap" xmlns="http://xmlns.oracle.com/jdeveloper/110000/client-preferences">
+   <Item>
+      <Key>oracle.bali.xml.addin.schema.SchemaOptions</Key>
+      <Value class="oracle.bali.xml.addin.schema.SchemaOptions">
+         <schemas>
+            <data class="java.util.ArrayList"/>
+         </schemas>
+      </Value>
+   </Item>
+   <Item>
+      <Key>oracle.bali.xml.addin.XMLEditorOptions</Key>
+      <Value class="oracle.bali.xml.addin.XMLEditorOptions">
+         <endTagCompletion>false</endTagCompletion>
+         <requiredAttributeInsertion>true</requiredAttributeInsertion>
+         <showErrors>true</showErrors>
+         <smartIndent>false</smartIndent>
+      </Value>
+   </Item>
+</client-settings>

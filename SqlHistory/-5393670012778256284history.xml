@@ -1,0 +1,58 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[CREATE OR REPLACE FUNCTION  spec_valid (
+    da   spectacle.dates%TYPE,
+    hd   spectacle.h_debut%TYPE,
+    d   spectacle.durees%TYPE,
+    l    spectacle.idlieu%TYPE
+) RETURN BOOLEAN AS
+    v_id   spectacle.idspec%TYPE;
+    v_hd   spectacle.h_debut%TYPE;
+    v_d  spectacle.h_debut%TYPE;
+    h_f    spectacle.h_debut%TYPE := hd + d ; -- hf = heure fin du spectacles  deja existants
+    CURSOR cur_spec  IS 
+        SELECT
+            idspec,
+            h_debut,
+            durees 
+            
+        FROM
+            spectacle
+        WHERE
+            dateS = da
+            AND idlieu = l    
+     AND ( hd BETWEEN  h_debut AND   h_debut + durees  AND  hd NOT IN (h_debut+durees) 
+            OR            
+              h_f BETWEEN  h_debut AND   h_debut + durees  AND  h_f NOT IN (h_debut )       
+            OR 
+           ( hd<h_debut AND h_f> h_debut + durees )
+    );
+BEGIN
+    OPEN cur_spec;
+    FETCH cur_spec INTO
+        v_id,
+        v_hd,
+        h_f;
+    IF cur_spec%notfound THEN --pas de croisement entre les spectacles
+        RETURN true;
+    ELSE
+        h_f:=v_hd+h_f;
+        dbms_output.put_line('le lieu dont l''ID est : '
+                             || l
+                             || ' est occupé le '
+                             || v_hd
+                             || ' à '
+                             || h_f
+                             || ' heure');
+        RETURN false;
+    END IF;
+
+END spec_valid;]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[19/01/21 23:53]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.201]]></execTime>
+	</historyItem>
+</history>

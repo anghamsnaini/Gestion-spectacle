@@ -1,0 +1,31 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[create or replace PROCEDURE modfier_lieux(idl LIEU.idLieu%TYPE,
+    NewnomLieu  LIEU.NOMLIEU%TYPE,
+    adresse LIEU.Adresse%TYPE,
+    newcapacite  LIEU.CAPACITE%TYPE
+    ) IS
+BEGIN
+  if ((NewnomLieu='null') AND (adresse='null')) then
+    update Lieu set capacite = newcapacite 
+    where idLieu=idl ;
+    commit; 
+    dbms_output.put_line('modification du capacité éffectué avec succée');
+    
+  elsif ((newcapacite='null') AND (adresse='null')) then 
+    update Lieu set NomLieu = NewnomLieu 
+    where idLieu=idl ;
+    commit;
+     dbms_output.put_line('modification du nom éffectué avec succée');
+    
+  else dbms_output.put_line('modifocation impossible !!');  
+  END IF ;
+END modfier_lieux ;]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[21/01/21 13:11]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.168]]></execTime>
+	</historyItem>
+</history>

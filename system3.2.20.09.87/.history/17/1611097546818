@@ -1,0 +1,2 @@
+create user SGBD_project identified by angham;
+Grant DBA to SGBD_project;

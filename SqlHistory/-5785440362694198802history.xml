@@ -1,0 +1,29 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[CREATE OR REPLACE TRIGGER TRIGGER_HEURE_RUB 
+BEFORE INSERT ON RUBRIQUE 
+FOR EACH ROW 
+        
+        DECLARE
+        V_H_DEBUT spectacle.H_DEBUT%TYPE;
+        v_fin_spec spectacle.H_DEBUT%TYPE;
+        dur int;
+        BEGIN
+        SELECT H_DEBUT INTO V_H_DEBUT  FROM spectacle WHERE IDSPEC = :NEW.IDSPEC;
+        select DUREES into dur FROM spectacle WHERE IDSPEC = :NEW.IDSPEC;
+        v_fin_spec := V_H_DEBUT + dur ;
+
+        IF    V_H_DEBUT <= :NEW.H_DEBUTR and  :NEW.H_DEBUTR <= v_fin_spec then 
+            dbms_output.put_line('l heure de debut de rubrique  par rapport a celle du spectacle verifié !');
+        ELSE 
+            RAISE_APPLICATION_ERROR(-20000,'erreur !! une rubrique ne commence pas avant/apres le spectacle');
+        END IF;
+        END;]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[20/01/21 17:26]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.17]]></execTime>
+	</historyItem>
+</history>

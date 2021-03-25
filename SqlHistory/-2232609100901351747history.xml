@@ -1,0 +1,13 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[ALTER TABLE RUBRIQUE 
+ADD CONSTRAINT CHK_TYPE 
+CHECK(type in('comédie','theatre','dance',' imitation','magie', 'musique','chant'));]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[20/01/21 17:17]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[2.349]]></execTime>
+	</historyItem>
+</history>

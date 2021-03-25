@@ -1,0 +1,17 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[CREATE TABLE Projet_Pers
+(   Id_projet varchar(100) NOT NULL,
+   Id_pers INT NOT NULL,
+    PRIMARY KEY (Id_projet,Id_pers),
+    FOREIGN KEY (Id_projet) REFERENCES Projet (Id_projet),
+    FOREIGN KEY (Id_pers) REFERENCES Personne (id_pers)
+);]]></sql>
+		<connection><![CDATA[td1sgbd]]></connection>
+		<timestamp><![CDATA[26/10/20 18:30]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.03]]></execTime>
+	</historyItem>
+</history>

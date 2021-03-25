@@ -1,0 +1,24 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[CREATE OR REPLACE PROCEDURE modif_duree(id in NUMBER,duree1 in NUMBER) 
+IS
+t boolean;
+BEGIN 
+ t := idspec_exist(id) ;
+ if t then 
+   update spectacle set DUREES=duree1 where idspec=id;
+   DBMS_OUTPUT.PUT_LINE ('update avec success'); 
+ 
+else
+    RAISE_APPLICATION_ERROR(-20115,'ce IDSPEC est INEXSISTANT!');
+END IF;   
+commit;
+END modif_duree;]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[20/01/21 11:23]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.094]]></execTime>
+	</historyItem>
+</history>

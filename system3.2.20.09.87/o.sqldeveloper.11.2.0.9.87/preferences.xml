@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<client-settings class="java.util.HashMap" xmlns="http://xmlns.oracle.com/jdeveloper/110000/client-preferences">
+   <Item>
+      <Key>audit-preferences</Key>
+      <Value class="oracle.jdevimpl.audit.preferences.AuditPreferences">
+         <assistProfile/>
+         <auditDuringCompile>false</auditDuringCompile>
+         <auditWhileEditing>true</auditWhileEditing>
+         <compileProfile/>
+         <editorDelay>700</editorDelay>
+         <maximumFileSize>5.0</maximumFileSize>
+         <showCodeAssistanceInGutter>true</showCodeAssistanceInGutter>
+      </Value>
+   </Item>
+   <Item>
+      <Key>document-extensions-options</Key>
+      <Value class="oracle.ide.config.DocumentExtensions">
+         <defaultEditorMap/>
+         <excludeFilterSettings/>
+         <extensionToContentTypeMap class="java.util.HashMap">
+            <Item>
+               <Key>.Der</Key>
+               <Value>BINARY</Value>
+            </Item>
+            <Item>
+               <Key>.Jks</Key>
+               <Value>BINARY</Value>
+            </Item>
+            <Item>
+               <Key>.Pem</Key>
+               <Value>BINARY</Value>
+            </Item>
+            <Item>
+               <Key>.stf</Key>
+               <Value>BINARY</Value>
+            </Item>
+         </extensionToContentTypeMap>
+         <userExtensionList>
+            <Item>
+               <docClassName>oracle.ide.model.Project</docClassName>
+               <userExtensions class="java.util.ArrayList"/>
+            </Item>
+            <Item>
+               <docClassName>oracle.ide.model.Workspace</docClassName>
+               <userExtensions class="java.util.ArrayList"/>
+            </Item>
+            <Item>
+               <docClassName>oracle.dbtools.raptor.sqltrace.SqlTraceEditorNode</docClassName>
+               <userExtensions class="java.util.ArrayList"/>
+            </Item>
+            <Item>
+               <docClassName>oracle.jdevimpl.help.HelpTopicDocument</docClassName>
+               <userExtensions class="java.util.ArrayList"/>
+            </Item>
+            <Item>
+               <docClassName>oracle.ide.model.DeployableTextNode</docClassName>
+               <userExtensions class="java.util.ArrayList"/>
+            </Item>
+            <Item>
+               <docClassName>oracle.bali.xml.addin.XMLSourceNode</docClassName>
+               <userExtensions class="java.util.ArrayList"/>
+            </Item>
+            <Item>
+               <docClassName>oracle.jdeveloper.vcs.patch.PatchNode</docClassName>
+               <userExtensions class="java.util.ArrayList"/>
+            </Item>
+            <Item>
+               <docClassName>oracle.dbtools.raptor.navigator.plsql.PlSqlNode</docClassName>
+               <userExtensions class="java.util.ArrayList"/>
+            </Item>
+            <Item>
+               <docClassName>oracle.dbtools.raptor.dbdiff.editor.DbDiffEditorNode</docClassName>
+               <userExtensions class="java.util.ArrayList"/>
+            </Item>
+            <Item>
+               <docClassName>oracle.ide.db.model.SqlNode</docClassName>
+               <userExtensions class="java.util.ArrayList"/>
+            </Item>
+            <Item>
+               <docClassName>oracle.jdeveloper.library.JDKNode</docClassName>
+               <userExtensions class="java.util.ArrayList"/>
+            </Item>
+         </userExtensionList>
+      </Value>
+   </Item>
+</client-settings>

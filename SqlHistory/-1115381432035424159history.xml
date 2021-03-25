@@ -1,0 +1,15 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[create table Tab_Act_familles (
+  nofam numeric(7) not null,
+  noact varchar(10) not null,
+  descr varchar(80)
+);]]></sql>
+		<connection><![CDATA[invit1]]></connection>
+		<timestamp><![CDATA[01/11/20 23:03]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.199]]></execTime>
+	</historyItem>
+</history>

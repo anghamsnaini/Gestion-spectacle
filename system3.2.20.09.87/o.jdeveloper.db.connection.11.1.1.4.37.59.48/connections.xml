@@ -1,0 +1,451 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<References xmlns="http://xmlns.oracle.com/adf/jndi">
+   <Reference name="system" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+      <Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+      <RefAddresses>
+         <StringRefAddr addrType="OracleConnectionType">
+            <Contents>BASIC</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="sid">
+            <Contents>xe</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="oraDriverType">
+            <Contents>thin</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="port">
+            <Contents>1521</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="user">
+            <Contents>system</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="role">
+            <Contents/>
+         </StringRefAddr>
+         <StringRefAddr addrType="NoPasswordConnection">
+            <Contents>TRUE</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="subtype">
+            <Contents>oraJDBC</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+            <Contents>false</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="OS_AUTHENTICATION">
+            <Contents>false</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="hostname">
+            <Contents>localhost</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="RaptorConnectionType">
+            <Contents>Oracle</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="ConnName">
+            <Contents>system</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="customUrl">
+            <Contents>jdbc:oracle:thin:@localhost:1521:xe</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="password">
+            <Contents>055F21F64A3F3DB353F5D31AC7C00CAEB9</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="SavePassword">
+            <Contents>true</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="driver">
+            <Contents>oracle.jdbc.OracleDriver</Contents>
+         </StringRefAddr>
+      </RefAddresses>
+   </Reference>
+   <Reference name="TPsgbd1" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+      <Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+      <RefAddresses>
+         <StringRefAddr addrType="OracleConnectionType">
+            <Contents>BASIC</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="sid">
+            <Contents>xe</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="oraDriverType">
+            <Contents>thin</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="port">
+            <Contents>1521</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="user">
+            <Contents>TPsgbd1</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="role">
+            <Contents/>
+         </StringRefAddr>
+         <StringRefAddr addrType="NoPasswordConnection">
+            <Contents>TRUE</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="subtype">
+            <Contents>oraJDBC</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+            <Contents>false</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="OS_AUTHENTICATION">
+            <Contents>false</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="hostname">
+            <Contents>localhost</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="RaptorConnectionType">
+            <Contents>Oracle</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="ConnName">
+            <Contents>TPsgbd1</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="customUrl">
+            <Contents>jdbc:oracle:thin:@localhost:1521:xe</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="password">
+            <Contents>0518769AF327967B31E6AFD6B02E40283A</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="SavePassword">
+            <Contents>true</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="driver">
+            <Contents>oracle.jdbc.OracleDriver</Contents>
+         </StringRefAddr>
+      </RefAddresses>
+   </Reference>
+   <Reference name="td1sgbd" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+      <Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+      <RefAddresses>
+         <StringRefAddr addrType="OracleConnectionType">
+            <Contents>BASIC</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="sid">
+            <Contents>xe</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="oraDriverType">
+            <Contents>thin</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="port">
+            <Contents>1521</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="user">
+            <Contents>system</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="role">
+            <Contents/>
+         </StringRefAddr>
+         <StringRefAddr addrType="NoPasswordConnection">
+            <Contents>TRUE</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="subtype">
+            <Contents>oraJDBC</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+            <Contents>false</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="OS_AUTHENTICATION">
+            <Contents>false</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="hostname">
+            <Contents>localhost</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="RaptorConnectionType">
+            <Contents>Oracle</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="ConnName">
+            <Contents>td1sgbd</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="customUrl">
+            <Contents>jdbc:oracle:thin:@localhost:1521:xe</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="password">
+            <Contents>05BE9C70465BA7277D5DDDE8006BF107C2</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="SavePassword">
+            <Contents>true</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="driver">
+            <Contents>oracle.jdbc.OracleDriver</Contents>
+         </StringRefAddr>
+      </RefAddresses>
+   </Reference>
+   <Reference name="invit1" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+      <Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+      <RefAddresses>
+         <StringRefAddr addrType="OracleConnectionType">
+            <Contents>BASIC</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="sid">
+            <Contents>xe</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="oraDriverType">
+            <Contents>thin</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="port">
+            <Contents>1521</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="user">
+            <Contents>invit1</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="role">
+            <Contents/>
+         </StringRefAddr>
+         <StringRefAddr addrType="NoPasswordConnection">
+            <Contents>TRUE</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="subtype">
+            <Contents>oraJDBC</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+            <Contents>false</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="OS_AUTHENTICATION">
+            <Contents>false</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="hostname">
+            <Contents>localhost</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="RaptorConnectionType">
+            <Contents>Oracle</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="ConnName">
+            <Contents>invit1</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="customUrl">
+            <Contents>jdbc:oracle:thin:@localhost:1521:xe</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="password">
+            <Contents>05D5E14AAA3ADFA7321752D9389E5D9402</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="SavePassword">
+            <Contents>true</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="driver">
+            <Contents>oracle.jdbc.OracleDriver</Contents>
+         </StringRefAddr>
+      </RefAddresses>
+   </Reference>
+   <Reference name="invit2" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+      <Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+      <RefAddresses>
+         <StringRefAddr addrType="OracleConnectionType">
+            <Contents>BASIC</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="sid">
+            <Contents>xe</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="oraDriverType">
+            <Contents>thin</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="port">
+            <Contents>1521</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="user">
+            <Contents>invit2</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="role">
+            <Contents/>
+         </StringRefAddr>
+         <StringRefAddr addrType="NoPasswordConnection">
+            <Contents>TRUE</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="subtype">
+            <Contents>oraJDBC</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+            <Contents>false</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="OS_AUTHENTICATION">
+            <Contents>false</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="hostname">
+            <Contents>localhost</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="RaptorConnectionType">
+            <Contents>Oracle</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="ConnName">
+            <Contents>invit2</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="customUrl">
+            <Contents>jdbc:oracle:thin:@localhost:1521:xe</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="password">
+            <Contents>0556CDFF695153DF2DFA8209777CAEA5E7</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="SavePassword">
+            <Contents>true</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="driver">
+            <Contents>oracle.jdbc.OracleDriver</Contents>
+         </StringRefAddr>
+      </RefAddresses>
+   </Reference>
+   <Reference name="bensaidsondes" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+      <Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+      <RefAddresses>
+         <StringRefAddr addrType="OracleConnectionType">
+            <Contents>BASIC</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="sid">
+            <Contents>xe</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="oraDriverType">
+            <Contents>thin</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="port">
+            <Contents>1521</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="user">
+            <Contents>bensaidsondes</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="role">
+            <Contents/>
+         </StringRefAddr>
+         <StringRefAddr addrType="NoPasswordConnection">
+            <Contents>TRUE</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="subtype">
+            <Contents>oraJDBC</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+            <Contents>false</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="OS_AUTHENTICATION">
+            <Contents>false</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="hostname">
+            <Contents>localhost</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="RaptorConnectionType">
+            <Contents>Oracle</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="ConnName">
+            <Contents>bensaidsondes</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="customUrl">
+            <Contents>jdbc:oracle:thin:@localhost:1521:xe</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="password">
+            <Contents>054A6C95BBE8C5E4DDA7318900F7C8A30C</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="SavePassword">
+            <Contents>true</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="driver">
+            <Contents>oracle.jdbc.OracleDriver</Contents>
+         </StringRefAddr>
+      </RefAddresses>
+   </Reference>
+   <Reference name="tp5" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+      <Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+      <RefAddresses>
+         <StringRefAddr addrType="OracleConnectionType">
+            <Contents>BASIC</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="sid">
+            <Contents>xe</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="oraDriverType">
+            <Contents>thin</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="port">
+            <Contents>1521</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="user">
+            <Contents>tp5</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="role">
+            <Contents/>
+         </StringRefAddr>
+         <StringRefAddr addrType="NoPasswordConnection">
+            <Contents>TRUE</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="subtype">
+            <Contents>oraJDBC</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+            <Contents>false</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="OS_AUTHENTICATION">
+            <Contents>false</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="hostname">
+            <Contents>localhost</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="RaptorConnectionType">
+            <Contents>Oracle</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="ConnName">
+            <Contents>tp5</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="customUrl">
+            <Contents>jdbc:oracle:thin:@localhost:1521:xe</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="password">
+            <Contents>0557999B1615D16229DE6AA74E4AF9693E</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="SavePassword">
+            <Contents>true</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="driver">
+            <Contents>oracle.jdbc.OracleDriver</Contents>
+         </StringRefAddr>
+      </RefAddresses>
+   </Reference>
+   <Reference name="SGBD_project" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+      <Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+      <RefAddresses>
+         <StringRefAddr addrType="OracleConnectionType">
+            <Contents>BASIC</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="sid">
+            <Contents>xe</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="oraDriverType">
+            <Contents>thin</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="port">
+            <Contents>1521</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="user">
+            <Contents>SGBD_project</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="role">
+            <Contents/>
+         </StringRefAddr>
+         <StringRefAddr addrType="NoPasswordConnection">
+            <Contents>TRUE</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="subtype">
+            <Contents>oraJDBC</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+            <Contents>false</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="OS_AUTHENTICATION">
+            <Contents>false</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="hostname">
+            <Contents>localhost</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="RaptorConnectionType">
+            <Contents>Oracle</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="ConnName">
+            <Contents>SGBD_project</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="customUrl">
+            <Contents>jdbc:oracle:thin:@localhost:1521:xe</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="password">
+            <Contents>0597EEE81D0F7429383B4DDDE90737FDB4</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="SavePassword">
+            <Contents>true</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="driver">
+            <Contents>oracle.jdbc.OracleDriver</Contents>
+         </StringRefAddr>
+      </RefAddresses>
+   </Reference>
+</References>

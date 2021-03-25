@@ -1,0 +1,16 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[CREATE PACKAGE gestio_rubrique AS
+FUNCTION rechercher_rub_idspec (ids rubrique.idspec%TYPE) RETURN BOOLEAN ;
+FUNCTION rechercher_rub_par_idart (ida rubrique.idart%TYPE) RETURN BOOLEAN ;
+function rechercher_rub_par_nomartiste ( noma artiste.nomart%TYPE) RETURN BOOLEAN;
+PROCEDURE supprimer_rub (idr rubrique.idrub%TYPE);
+END gestio_rubrique;]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[20/01/21 17:01]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.339]]></execTime>
+	</historyItem>
+</history>

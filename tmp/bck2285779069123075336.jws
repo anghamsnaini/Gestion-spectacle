@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<jws:workspace xmlns:jws="http://xmlns.oracle.com/ide/project">
+   <list n="listOfChildren">
+      <hash><url n="URL" protocol="sqldev.temp" path="/IdeConnections%23SGBD_project.jpr"/></hash>
+   </list>
+</jws:workspace>

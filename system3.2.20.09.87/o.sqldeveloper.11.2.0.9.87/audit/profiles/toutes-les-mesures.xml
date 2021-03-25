@@ -1,0 +1,2525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_261" class="java.beans.XMLDecoder">
+ <string>Audit Profile 11.1.1-1</string>
+ <string>Toutes les mesures</string>
+ <string>all-metrics</string>
+ <object class="java.util.HashMap">
+  <void method="put">
+   <string>adffacesacc-category.adffacesacc-rule-compnotlabelled</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object class="oracle.jdeveloper.audit.analyzer.Rule" id="Method0" method="getMethod">
+       <string>setEnabled</string>
+       <array class="java.lang.Class" length="1">
+        <void index="0">
+         <class>boolean</class>
+        </void>
+       </array>
+      </object>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.ide.xml.attribute-missing-error</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.adfdt.controller.adfc.source.audit.ELBeanModificationWithoutDirty</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>unused.type-deprecated</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>pt-category.pt-nested-forms</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jsp-category.duplicate-facet</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>dvtacc-category.dvtacc-rule-graphreferencelinenoadasupport</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>dvtacc-category.dvtacc-rule-graphtimeselectornoadasupport</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.return-value-missing</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>dvtacc-category.dvtacc-rule-graphscrollbarnoadasupport</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.ide.xml.other-error</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>pt-category.pt-type-not-found</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.jbo.config-poolsize</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.adfdt.controller.adfc.source.audit.PageFragmentSemanticsDoNotMatch2b</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jsp-category.validate-forbidden-descendant</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>properties-warnings.newlines-are-bad</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jsp-category.translator-errors</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>xmlef-translation-validation.translation-rule-translatableattr</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jslint.nested-definition</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jsp-category.duplicate-id</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffaces-category.adffaces-rule-commandbtnusage</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.adfdt.controller.adfc.source.audit.PageDoesNotExist</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.adfdt.controller.adfc.source.audit.OutcomeNotFoundInActivity</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>unused.constructor-deprecated</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jslint.unexpected-void</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffaces-category.adffaces-rule-afvalidatortofvalidator</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jsp-category.unnecessary-component-group</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffaces-category.adffaces-rule-actionInCmdToolbarBtn</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>dvt-category.dvt-rule-visibletorendered</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>assists.ctor-assist</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>webservices.broken-annotation</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jslint.switch-fall-thru</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>complexity.vg</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object class="oracle.jdeveloper.audit.analyzer.Metric" id="Method1" method="getMethod">
+       <string>setEnabled</string>
+       <array class="java.lang.Class" length="1">
+        <void index="0">
+         <class>boolean</class>
+        </void>
+       </array>
+      </object>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adfm-configuration.adfm-check-duplicate-dcxnames</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adfm-application.adfm-check-page-definition-extension</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.ide.xml.other-warning</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.adfdt.controller.adfc.source.audit.DefaultActivityNotDefined</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>webservices.xsd-import-with-wsdl-import</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffaces-category.adffaces-rule-popupInCmdToolbarBtn</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>webservices.xsd-schema-not-under-types</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>dvtacc-category.dvtacc-rule-compreqsummary</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>webservices.handler-chain-synchronization</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.adfdt.controller.adfc.source.audit.extra.DataControlScopeNotDefined</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffacesacc-category.adffacesacc-rule-choosecolornotreferred</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.jbo.config-name</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffacesacc-category.adffacesacc-rule-chooseidcolorpointsnowhere</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffaces-category.adffaces-rule-facetrefusage1</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.adfdt.controller.adfc.source.audit.ScopeModifiedWithoutDirty</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.jbo.config-lazyloading</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.unchecked-cast</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffaces-category.adffaces-rule-usesuploadwithinputfile</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffaces-category.adffaces-rule-facetrefusage2</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.member-not-found</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffaces-category.adffaces-rule-aflongidsonnc</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>properties-warnings.duplicate-key-warning</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jsp-category.mutually-exclusive-atributes</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jslint.expression-statement</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>complexity.dit</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method1"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffaces-category.adffaces-rule-tableautoheightrows</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jslint.unexpected-with-statement</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffacesacc-category.adffacesacc-rule-imgshortdesc</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>webservices.wsdl-impl-synchronization</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>names.unconventional-method-name</string>
+   <object class="java.util.ArrayList"/>
+  </void>
+  <void method="put">
+   <string>javascript.missing-switch-default</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.ide.xml.other-suggestion</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.adfdt.controller.adfc.source.audit.CustomizedCustomizationId</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>javascript.deprecated-bom-property</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.jdeveloper.java.access.unrestricted-field-access</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.jbo.view.lov-rangesize</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.adfdt.controller.adfc.source.audit.DuplicateCustomizationId</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>names.unconventional-class-name</string>
+   <object class="java.util.ArrayList"/>
+  </void>
+  <void method="put">
+   <string>adffacesacc-category.adffacesacc-rule-compreqsearchdesc</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>javascript.unused-identifier</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>properties-warnings.missing-continuation</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jsp-category.no-method-binding-method</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffaces-category.adffaces-rule-endswithpercentagestyles</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>pt-category.pt-facet</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>dvtacc-category.dvthv-rule-compmustbeinsidehv</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.ide.xml.brokenref-error</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffaces-category.adffaces-rule-targetnotcollectioncomponent</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.ide.xml.attribute-value-missing</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>javascript.empty-body</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>names.unconventional-field-name</string>
+   <object class="java.util.ArrayList"/>
+  </void>
+  <void method="put">
+   <string>oracle.ide.xml.validation-error</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>javascript.empty-block</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>shared-datacontrol</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffaces-category.adffaces-rule-widthleftrightstyles</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffacesacc-category.adffacesacc-rule-compreqsummary</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.adfdt.controller.adfc.source.audit.BadPageFragmentSemanticsInBinding</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jsp-category.empty-verbatim</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>pt-category.pt-attr-required-default</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>webservices.mismatch-annotation</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.jbo.view.lov-recursive</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adfm-structuredefinition.adfm-struturedef-primary-key-check</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>dvtacc-category.dvtacc-rule-graphzoomdirectionnoadasupport</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>javascript.syntax-error</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffaces-category.adffaces-rule-notscopedadffacescomponent</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.jdeveloper.java.access.enum-constructor-access</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffaces-category.adffaces-rule-testiddifferent</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffaces-category.adffaces-rule-targetnotpopup</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.adfdt.controller.adfc.source.audit.PageFragmentReferenceNotExpected</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffacesacc-category.adffacesacc-rule-choosedatenotreferred</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffacesacc-category.adffacesacc-rule-compreqnoncolheadertext</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>junit.ignore-test</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.jdeveloper.java.access.array-field-access</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>webservices.xsd-schema-not-element-qualified</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.ide.html.non-default-size</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.unchecked-conversion</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>webservices.document-encoded</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.ide.xml.wellformedness-warning</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>ejb.broken-annotation</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.adfdt.controller.adfc.source.audit.RequiredElementEmpty</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>names.unconventional-interface-name</string>
+   <object class="java.util.ArrayList"/>
+  </void>
+  <void method="put">
+   <string>oracle.adfdt.controller.adfc.source.audit.ManagedBeanNotSerializable</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>collections-api-migration.old-collections-api</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffacesacc-category.adffacesacc-rule-compreqtextorshortdesc</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffacesacc-category.adffacesacc-rule-compreqshortdesc</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jslint.forbidden-block</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>unused.method-deprecated</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>webservices.annotation-rule</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jsp-category.undefined-facet</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>style-bad-selecter</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jslint.unexpected-assignment-expression</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.adfdt.controller.adfc.source.audit.CustomizationIdNotDefined</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>dvtacc-category.dvtacc-rule-graphtypenoadasupport</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>style-no-auto-heights</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>size.nos</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method1"/>
+      <boolean>true</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffacesacc-category.adffacesacc-rule-forpointsnowhere</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>css-category.syntax-error</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.ide.xml.mismatched-end-tag</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jsp-category.mutually-required-atributes</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.return-missing</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jslint.unexpected-label</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jsp-category.validate-forbidden-ancestor</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jslint.duplicate-definition</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.jdeveloper.java.annotations.at-override-violation</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.ide.database.primary-key-missing</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.adfdt.controller.adfc.source.audit.BadPageFragmentSemanticsInDialog</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>dvtacc-category.dvtacc-rule-compreqshortdesc</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jslint.unexpected-eval</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.jdeveloper.java.statements.trivial-assignment</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffaces-category.adffaces-rule-varusage</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffaces-category.adffaces-rule-facetwidthheightstyles</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jsp-category.prefix-declared-in-xmlns-but-not-used</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>webservices.stateful-conflict-resolver</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>extension.extension-class-assist</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jsp-category.duplicate-jsf-id</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>dvtacc-category.dvtacc-rule-graphseriesrollovernoadasupport</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>javascript.unexpected-debugger-statement</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.ide.xml.validation-warning</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>webservices.broken-webxml</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jsp-category.namespace-defined-but-not-installed</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>webservices.wlspolicy-descriptor-synchronization</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffacesacc-category.adffacesacc-rule-compreqleadingheader</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffaces-category.adffaces-rule-deprecatedscopedid</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jsp-category.el-syntax</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffaces-category.adffaces-rule-usewindowwithaction</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>single-root-in-fragment</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>pt-category.pt-missing-model</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffacesacc-category.adffacesacc-rule-compreqtext</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.ide.xml.attribute-duplicated</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>junit.set-timeout</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffacesacc-category.adffacesacc-rule-compreqtrailingheader</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.jdeveloper.java.statements.nested-assignment</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.ide.xml.wellformedness-error</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>pt-category.pt-multiple-root</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffaces-category.adffaces-rule-heighttopbottomstyles</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.ide.xml.attribute-missing-warning</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffacesmds-category.adffacesmds-rule-customizationidneeded</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.ide.xml.validation-advisory</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffaces-category.adffaces-rule-afattrtofattr</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffaces-category.adffaces-rule-verbatimScript</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>properties-warnings.missing-value-warning</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffacesacc-category.adffacesacc-rule-chooseiddatepointsnowhere</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>names.unconventional-variable-name</string>
+   <object class="java.util.ArrayList"/>
+  </void>
+  <void method="put">
+   <string>jsp-category.unreferenced-jar</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffaces-category.adffaces-rule-pglendswithpercentagestyles</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>names.unconventional-constant-name</string>
+   <object class="java.util.ArrayList"/>
+  </void>
+  <void method="put">
+   <string>css-category.semantic-error</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>assists.for-assist</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.adfdt.controller.adfc.source.audit.PageFragmentSemanticsDoNotMatch2</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.adfdt.controller.adfc.source.audit.PageFragmentSemanticsDoNotMatch3</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.adfdt.controller.adfc.source.audit.PageFragmentSemanticsDoNotMatch1</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adfm-application.adfm-check-page-duplicate-cpxnames</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>javascript.unsupported-bom-property</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>javascript.unexpected-continue-statement</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.adfdt.controller.adfc.source.audit.PageFragmentSemanticsDoNotMatch4</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffaces-category.adffaces-rule-invalidscopedid</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adfm-placeholder.adfm-bound-to-placeholder</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.adfdt.controller.adfc.source.audit.RequiredParametersNotSpecified</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>css-category.unregistered-font-family</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.jbo.view.lov-readonly</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>webservices.binding-missing-operations</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>junit.set-expected-exception</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffaces-category.adffaces-rule-positionstyles</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jslint.unreachable-code</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>dvtacc-category.dvthv-rule-notvalidhvattr</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.adfdt.controller.adfc.source.audit.ELUnknownToken</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>webservices.method-annotation</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jsp-category.prefix-declared-in-taglib-but-not-used</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>webservices.swap-element-type</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jsp-category.high-available-app</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffaces-category.adffaces-rule-targetdoesnotsendclientcomponent</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffacesacc-category.adffacesacc-rule-tablecolneedsheaders</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>unused.field-deprecated</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>dvtacc-category.dvtacc-rule-geomapnoadasupport</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>webservices.xsd-import-under-types</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.cast-incompatible</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jsp-category.translator-warnings</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>java-errors.anonymous-extends-final</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jsp-category.undefined-variable</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.adfdt.controller.adfc.source.audit.ELSyntaxError</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>dvtacc-category.dvthv-rule-compnotvalidhvchild</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jsp-category.validate-children</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>javascript.duplicate-switch-case-label</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>javascript.unescaped-html-endtag-in-string-literal</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffacesmds-category.adffacesmds-rule-customizationidduped</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jsp-category.check-valid-parent</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jsp-category.empty-facet</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>pt-category.pt-display-spaces</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.jdeveloper.java.statements.multiple-assignment</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>webservices.oneway-outbound-conflict-resolver</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>adffacesacc-category.adffacesacc-rule-compreqtitle</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>javascript.switch-default-not-last</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>webservices.definition-no-namespace</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>names.unconventional-parameter-name</string>
+   <object class="java.util.ArrayList"/>
+  </void>
+  <void method="put">
+   <string>javascript.unexpected-bitwise-operator</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jslint.unexpected-new-expression-construct</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>oracle.adfdt.controller.adfc.source.audit.PageReferenceNotExpected</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>pt-category.pt-facet-references</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>style-visual-root-present</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>jsp-category.nested-form-tags</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="oracle.jdeveloper.audit.service.Profile$Setter">
+      <object idref="Method0"/>
+      <boolean>false</boolean>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

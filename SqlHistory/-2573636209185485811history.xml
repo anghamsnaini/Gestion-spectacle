@@ -1,0 +1,25 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[CREATE OR REPLACE FUNCTION  nb_rubrique (id_s spectacle.idspec%TYPE) 
+RETURN int IS
+    nb int;
+BEGIN
+    select count(idspec) 
+    into nb
+    from rubrique 
+    where idspec=id_s;
+
+    RETURN(nb);
+     IF SQL%FOUND THEN
+      raise_application_error (-20001,
+                               'Data was found in the vinegar table.');
+   END IF;
+END nb_rubrique;]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[19/01/21 22:50]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.319]]></execTime>
+	</historyItem>
+</history>

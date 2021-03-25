@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[drop user td1sgbd;]]></sql>
+		<connection><![CDATA[system]]></connection>
+		<timestamp><![CDATA[26/10/20 16:10]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[4.997]]></execTime>
+	</historyItem>
+</history>

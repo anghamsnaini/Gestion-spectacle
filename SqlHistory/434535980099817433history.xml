@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[select * from lieu;]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[27/01/21 19:53]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[6]]></executed>
+		<execTime><![CDATA[0.002]]></execTime>
+	</historyItem>
+</history>

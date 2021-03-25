@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[file:/C:/Users/21625/AppData/Roaming/SQL Developer/SGBD_project_1.sql]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[27/01/21 17:01]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[51]]></executed>
+		<execTime><![CDATA[0.0]]></execTime>
+	</historyItem>
+</history>

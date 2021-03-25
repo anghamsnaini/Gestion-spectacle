@@ -1,0 +1,2 @@
+Select * From TPSGBD1.vlist_adhrent
+where mail_adh!='null';

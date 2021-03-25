@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[file:/C:/Users/21625/AppData/Roaming/SQL Developer/tp4.sql]]></sql>
+		<connection><![CDATA[TPsgbd1]]></connection>
+		<timestamp><![CDATA[24/12/20 12:28]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[2]]></executed>
+		<execTime><![CDATA[0.0]]></execTime>
+	</historyItem>
+</history>

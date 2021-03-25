@@ -1,0 +1,21 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[CREATE OR REPLACE PROCEDURE ajout_lieux(idl LIEU.idLieu%TYPE,
+   nomL LIEU.NOMLIEU%TYPE,
+    adr LIEU.ADRESSE%TYPE,
+    cap LIEU.CAPACITE%TYPE)
+IS
+BEGIN
+    INSERT INTO Lieu VALUES
+      ( idl, nomL, adr ,cap );
+    COMMIT ;
+    SYS.DBMS_OUTPUT.PUT_LINE('insertion effectué avec succée !!');
+END ajout_lieux ;]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[21/01/21 12:25]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.362]]></execTime>
+	</historyItem>
+</history>

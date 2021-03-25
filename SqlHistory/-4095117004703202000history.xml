@@ -1,0 +1,86 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[CREATE PACKAGE BODY gestio_rubrique AS
+    /*** recherche rubriquepar idspec*/
+       
+    FUNCTION rechercher_rub_idspec (ids rubrique.idspec%TYPE) 
+    RETURN BOOLEAN IS
+        vid  rubrique.idspec%TYPE;
+    BEGIN
+                SELECT COUNT(idspec) 
+                into vid /**select pr voir si idrub existe deja dans yable ou non */
+                FROM rubrique
+                WHERE
+                    idspec = ids;
+                if vid = 0 then
+                     RETURN false;
+                else 
+                RETURN true;
+                END IF;
+    END rechercher_rub_idspec;
+
+
+   /******************recherche  rubrique avec idratiste donnée (fonc intermediaire) **************/  
+  
+   
+FUNCTION rechercher_rub_par_idart (ida rubrique.idart%TYPE) 
+RETURN BOOLEAN IS
+    vid  rubrique.idart%TYPE;
+BEGIN
+            SELECT COUNT(idart)
+            into vid /**select pr voir si idrub existe deja dans yable ou non */
+            FROM rubrique
+            WHERE
+                idart = ida;
+            if vid = 0 then
+                RETURN false;
+            else 
+            
+            RETURN true;
+            END IF;
+END rechercher_rub_par_idart;
+
+  /********************************/  
+function rechercher_rub_par_nomartiste ( noma artiste.nomart%TYPE) 
+RETURN BOOLEAN IS
+                          t BOOLEAN;
+                          vida_artiste artiste.idart%TYPE;
+
+
+                        BEGIN
+                        select IDART
+                        into vida_artiste
+                        from artiste 
+                        where upper(NOMART) like upper(noma) ;
+                        t := rechercher_rub_par_idart (vida_artiste);
+                        if t then 
+                        return true;
+                        else 
+                        return false;
+                        end if;
+                        END rechercher_rub_par_nomartiste;
+                        
+                        
+ 
+PROCEDURE supprimer_rub (idr rubrique.idrub%TYPE) IS
+    vids   rubrique.idspec%TYPE;
+    vds    spectacle.dates%TYPE;
+BEGIN
+            DELETE FROM rubrique
+            WHERE
+                idrub = idr;
+
+            dbms_output.put_line('1 Row was dropped successfuly');
+        exception 
+        When no_data_found then
+            dbms_output.put_line('pas de suppression ! verifiez id rub');
+END supprimer_rub;
+ END gestio_rubrique;]]></sql>
+		<connection><![CDATA[SGBD_project]]></connection>
+		<timestamp><![CDATA[20/01/21 16:46]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[1.795]]></execTime>
+	</historyItem>
+</history>

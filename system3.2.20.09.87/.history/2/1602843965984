@@ -1,0 +1,12 @@
+INSERT INTO MembreF
+(nomem,memb_nomem_pk,prenom,daten,cin,sexe,ecole,endicap,remarque,nofam) VALUES
+(2, 'Rabia', 'mere','04/23/1972',76543219,'F','Non', 'sans emploi',
+1);
+
+
+
+
+
+
+
+
